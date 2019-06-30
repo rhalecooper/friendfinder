@@ -1,4 +1,6 @@
-var FriendArray = [{
+
+var FriendArray = [
+    {
         name: "Josh Parker",
         photo: "https://avatars0.githubusercontent.com/u/23565504?s=460&v=4",
         scores: [4, 4, 5, 2, 5, 4, 5, 4, 4, 5]
@@ -39,7 +41,266 @@ var FriendArray = [{
         name: "Brian Eastman",
         photo: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         scores: [3, 1, 4, 1, 4, 3, 5, 1, 5, 4]
-    }
+    },
+{
+"name": "LUCAS",
+"photo": "er3456745",
+"scores": [
+4,
+2,
+1,
+2,
+3,
+3,
+4,
+3,
+3,
+5
+]
+},
+{
+"name": "Robin ",
+"photo": "dgrdjyyului",
+"scores": [
+5,
+5,
+4,
+2,
+5,
+2,
+5,
+1,
+2,
+1
+]
+},
+
+{
+"name": "Sophia",
+"photo": "n/a",
+"scores": [
+4,
+5,
+4,
+2,
+4,
+4,
+4,
+1,
+1,
+2
+]
+},
+{
+"name": "geri hale-coper",
+"photo": "fhncfgmtfdhsd",
+"scores": [
+3,
+5,
+4,
+1,
+5,
+2,
+2,
+2,
+2,
+1
+]
+},
+{
+"name": "coco",
+"photo": "cocofinder787",
+"scores": [
+4,
+3,
+2,
+1,
+5,
+1,
+5,
+5,
+null,
+5
+]
+},
+{
+"name": "coco",
+"photo": "cocofinder787",
+"scores": [
+4,
+3,
+2,
+1,
+5,
+1,
+5,
+5,
+3,
+5
+]
+},
+{
+"name": "Rachel",
+"photo": "ycrjmd,kjl",
+"scores": [
+1,
+5,
+1,
+5,
+5,
+5,
+5,
+5,
+3,
+5
+]
+},
+{
+"name": "carmen san diego",
+"photo": "!@#%#$##^*&((*",
+"scores": [
+3,
+5,
+5,
+3,
+4,
+3,
+4,
+3,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "CHAZZZ",
+"photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
+"scores": [
+5,
+5,
+3,
+2,
+5,
+2,
+3,
+1,
+2,
+5
+]
+},
+{
+"name": "bamboo",
+"photo": "bamboo&cocoBFF",
+"scores": [
+5,
+3,
+1,
+2,
+5,
+1,
+5,
+1,
+1,
+5
+]
+}
+
+
 ]
 
 module.exports = FriendArray
