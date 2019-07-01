@@ -221,15 +221,22 @@
       <div class="modal-content"> 
         <span class="close">&times;</span>
         <div id="myModalText">This is my Modal...</div>
+        <img 
+          id="myModelPic" 
+          src="https://static.vecteezy.com/system/resources/previews/000/553/403/large_2x/friendly-female-nurse-cartoon-face-smile-vector-illustration.jpg" 
+          width="100" 
+          height="120"
+          alt="default picture of freind"> 
       </div>
     </div>
 
     <script type="text/javascript">
 
       // Set up the variables used for the modal
-      var modal = document.getElementById("myModal");
+      var modal     = document.getElementById("myModal");
       var modalText = document.getElementById("myModalText");
-      var span = document.getElementsByClassName("close")[0];
+      var modalPic  = document.getElementById("myModelPic");
+      var span      = document.getElementsByClassName("close")[0];
 
       $("#submit-btn").on("click", function(event) {
         // console.log ('dinner out is a go')
@@ -268,7 +275,8 @@
 
         $.post("/api/friends", userData, function(data) {
           //console.log("data in the post", data );
-          modalText.textContent = "Well, " + userData.name + ", your best match for a new friend is " + data.name;
+          modalText.textContent = "Well, " + userData.name + ", your BEST match for a new friend is ... " + data.name;
+          modalPic.src = data.photo;
           modal.style.display = "block";
         });
       });

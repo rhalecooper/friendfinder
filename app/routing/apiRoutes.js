@@ -50,7 +50,7 @@ module.exports = function(app) {
     }
 
     friendArray.push(user);
-    // console.log("matchedFriend in apiRoutes =", matchedFriend);
+    //console.log("matchedFriend in apiRoutes =", matchedFriend);
     res.json(matchedFriend);
   });
 
