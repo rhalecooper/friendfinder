@@ -273,12 +273,29 @@
         };
         //console.log(userData);
 
-        $.post("/api/friends", userData, function(data) {
-          //console.log("data in the post", data );
-          modalText.textContent = "Well, " + userData.name + ", your BEST match for a new friend is ... " + data.name;
-          modalPic.src = data.photo;
-          modal.style.display = "block";
-        });
+        var isValid = true;
+        if (userData.scores[0] === "") { isValid = false;}
+        if (userData.scores[1] === "") { isValid = false;}
+        if (userData.scores[2] === "") { isValid = false;}
+        if (userData.scores[3] === "") { isValid = false;}
+        if (userData.scores[4] === "") { isValid = false;}
+        if (userData.scores[5] === "") { isValid = false;}
+        if (userData.scores[6] === "") { isValid = false;}
+        if (userData.scores[7] === "") { isValid = false;}
+        if (userData.scores[8] === "") { isValid = false;}
+        if (userData.scores[9] === "") { isValid = false;}
+
+        if (isValid) {
+          $.post("/api/friends", userData, function(data) {
+            //console.log("data in the post", data );
+            modalText.textContent = "Well, " + userData.name + ", your BEST match for a new friend is ... " + data.name;
+            modalPic.src = data.photo;
+            modal.style.display = "block";
+          });
+        } else {
+          alert("Please fill out all fields before submitting!");
+        }
+
       });
 
       // When the user clicks on <span> (x), close the modal

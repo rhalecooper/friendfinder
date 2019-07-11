@@ -79,7 +79,7 @@ var FriendArray = [
 "scores": [1,5,1,5,5,5,5,5,3,5]
 },
 {
-"name": "CHAZZZ",
+"name": "CHAZ",
 "photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4bfwp90USWChkfcy-2LW6OLNCVTWGOAIzbFOzc2ziUiBJ3GGc-j0SEDLQipLYBw01TjVkbPPjw8oVylEENtwxwiQ3pYa8VGqJOPKidtxjzn3c9XuYb0g1&usqp=CAc",
 "scores": [5,5,3,2,5,2,3,1,2,5]
 },
